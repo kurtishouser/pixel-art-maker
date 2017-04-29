@@ -1,0 +1,192 @@
+body {
+  font-family: sans-serif;
+}
+
+.page-wrapper {
+  width: 760px;
+  margin: 0px auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+#board {
+  background-color: #efefef;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #888;
+}
+
+#canvas {
+  cursor: pointer;
+}
+
+.row:before, .row:after {
+  content: " ";
+  display: table;
+}
+
+.row:after {
+  clear: both;
+}
+
+.pixel, .color {
+  position: relative;
+  float: left;
+}
+
+.pixel {
+  background-color: white;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #efefef;
+}
+
+.color {
+  width: 20px;
+  height: 20px;
+}
+
+/* COLOR SELECTOR */
+#colors {
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.color {
+  margin: 2px;
+  border-radius: 50%;
+}
+
+#current-color {
+  width: 60px;
+  height: 20px;
+  border: 1px solid #aaaaaa;
+}
+
+/* STATUS BAR */
+#status-bar {
+  margin-top: 10px;
+}
+
+/* COLORS */
+.black {
+  background-color: black;
+}
+
+.white {
+  background-color: white;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.aqua {
+  background-color: aqua;
+}
+
+.fuchsia {
+  background-color: fuchsia;
+}
+
+.gray {
+  background-color: gray;
+}
+
+.crimson {
+  background-color: crimson;
+}
+
+.lime {
+  background-color: lime;
+}
+
+.maroon {
+  background-color: maroon;
+}
+
+.navy {
+  background-color: navy;
+}
+
+.olive {
+  background-color: olive;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.silver {
+  background-color: silver;
+}
+
+.teal {
+  background-color: teal;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.gold {
+  background-color: gold;
+}
+
+.lightcoral {
+  background-color: lightcoral;
+}
+
+.seagreen {
+  background-color: seagreen;
+}
+
+.rosybrown {
+  background-color: rosybrown;
+}
+
+.sienna {
+  background-color: sienna;
+}
+
+.lightcyan {
+  background-color: lightcyan;
+}
+
+.darkkhaki {
+  background-color: darkkhaki;
+}
+
+.peachpuff {
+  background-color: peachpuff;
+}
+
+.indigo {
+  background-color: indigo;
+}
+
+.thistle {
+  background-color: thistle;
+}
+
+.salmon {
+  background-color: salmon;
+}
+
+.goldenrod {
+  background-color: goldenrod;
+}
